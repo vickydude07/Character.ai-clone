@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff; 
+  --foreground: #18181b; 
+}
+
+/* Optional: Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #18181b; 
+    --foreground: #ffffff; 
+  }
+}
+
+/* Base styles */
+body {
+  color: var(--foreground); 
+  background: var(--background); 
+  font-family: 'Onest', sans-serif; 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
